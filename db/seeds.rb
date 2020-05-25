@@ -7,7 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-
+puts "Destroying Players"
+Player.destroy_all 
+puts "Destroying People"
+Person.destroy_all
+puts "Destroying Gameboard"
+Gamebaord.destroy_all
 
 player1 = Player.create!(name: "Steven", wins:0, losses:0)
 person1 = Person.create!(name: "Edgar")

@@ -10,6 +10,9 @@ class CreatePeople < ActiveRecord::Migration[6.0]
       t.string :hat
       t.string :earring
       t.string :skin
+      t.string :background
+      t.boolean :incollection
+      t.string :picture
 
       t.timestamps
     end
