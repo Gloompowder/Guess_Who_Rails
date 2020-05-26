@@ -13,6 +13,8 @@ class CreatePeople < ActiveRecord::Migration[6.0]
       t.string :background
       t.boolean :incollection
       t.string :picture
+      t.boolean :chosen
+      t.string :clothes
 
       t.timestamps
     end

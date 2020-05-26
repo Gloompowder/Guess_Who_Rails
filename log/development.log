@@ -281,3 +281,711 @@ Migrating to CreateGameboards (20200525025846)
   [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (1.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  [1m[36mPerson Load (6.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[36mGameboard Load (0.5ms)[0m  [1m[34mSELECT "gameboards".* FROM "gameboards"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Create (1.3ms)[0m  [1m[32mINSERT INTO "players" ("name", "wins", "losses", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Steven"], ["wins", 0], ["losses", 0], ["created_at", "2020-05-26 00:05:43.266813"], ["updated_at", "2020-05-26 00:05:43.266813"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Edgar"], ["created_at", "2020-05-26 00:05:43.316521"], ["updated_at", "2020-05-26 00:05:43.316521"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Create (0.4ms)[0m  [1m[32mINSERT INTO "gameboards" ("player_id", "person_id", "winner", "turns", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["player_id", "1"], ["person_id", "1"], ["winner", 1], ["turns", 0], ["created_at", "2020-05-26 00:05:43.330709"], ["updated_at", "2020-05-26 00:05:43.330709"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPerson Load (1.1ms)[0m  [1m[34mSELECT "people".* FROM "people" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mGameboard Load (0.4ms)[0m  [1m[34mSELECT "gameboards".* FROM "gameboards" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2020-05-25 21:55:57 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/williamlin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/williamlin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.6ms | Allocations: 480)
+Completed 200 OK in 37ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 2632)
+
+
+Started GET "/players" for ::1 at 2020-05-25 21:56:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/players"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/players" for ::1 at 2020-05-26 09:50:55 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/players"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-26 09:53:45 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/williamlin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/williamlin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 70.0ms | Allocations: 190)
+Completed 200 OK in 116ms (Views: 87.3ms | ActiveRecord: 0.0ms | Allocations: 737)
+
+
+Started GET "/person" for ::1 at 2020-05-26 09:53:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/person"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/players" for ::1 at 2020-05-26 09:54:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/players"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/people" for ::1 at 2020-05-26 09:54:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/people"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1people" for ::1 at 2020-05-26 09:54:24 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1people"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 09:54:30 -0400
+  
+SyntaxError (/Users/williamlin/Documents/FlatIronSchool/mod3/rails-api-guess-who/guesswho-api/app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+...(:person).permit(:name, :wins = 0, :losses = 0)
+...                              ^):
+  
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 09:54:56 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/williamlin/Documents/FlatIronSchool/mod3/rails-api-guess-who/guesswho-api/app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+...(:person).permit(:name, :wins = 0, :losses = 0)
+...                              ^):
+  
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+Started GET "/favicon.ico" for ::1 at 2020-05-26 09:54:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 09:55:03 -0400
+  
+SyntaxError (/Users/williamlin/Documents/FlatIronSchool/mod3/rails-api-guess-who/guesswho-api/app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+...(:person).permit(:name, :wins = 0, :losses = 0)
+...                              ^):
+  
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 09:55:16 -0400
+  
+SyntaxError (/Users/williamlin/Documents/FlatIronSchool/mod3/rails-api-guess-who/guesswho-api/app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+...(:person).permit(:name, :wins = 0, :losses = 0)
+...                              ^):
+  
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 09:57:08 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/williamlin/Documents/FlatIronSchool/mod3/rails-api-guess-who/guesswho-api/app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+...(:person).permit(:name, :wins = 0, :losses = 0)
+...                              ^):
+  
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+app/controllers/api/v1/people_controller.rb:22: syntax error, unexpected '=', expecting ')'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 09:57:40 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as HTML
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 39ms (Views: 32.7ms | ActiveRecord: 2.4ms | Allocations: 12108)
+
+
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePlayers (20200525023630)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "players" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "wins" integer, "losses" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200525023630"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePeople (20200525025055)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "people" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "hair" varchar, "eyes" varchar, "gender" varchar, "facialhair" varchar, "glasses" varchar, "hat" varchar, "earring" varchar, "skin" varchar, "background" varchar, "incollection" boolean, "picture" varchar, "chosen" boolean, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200525025055"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateGameboards (20200525025846)
+  [1m[35m (4.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "gameboards" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "player_id" varchar, "person_id" varchar, "winner" integer, "turns" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200525025846"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-26 14:13:44.351829"], ["updated_at", "2020-05-26 14:13:44.351829"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (8.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePlayers (20200525023630)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "players" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "wins" integer, "losses" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200525023630"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePeople (20200525025055)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "people" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "hair" varchar, "eyes" varchar, "gender" varchar, "facialhair" varchar, "glasses" varchar, "hat" varchar, "earring" varchar, "skin" varchar, "background" varchar, "incollection" boolean, "picture" varchar, "chosen" boolean, "clothes" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200525025055"]]
+  [1m[35m (9.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateGameboards (20200525025846)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "gameboards" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "player_id" varchar, "person_id" varchar, "winner" integer, "turns" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200525025846"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-26 16:52:30.583036"], ["updated_at", "2020-05-26 16:52:30.583036"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[36mGameboard Load (0.5ms)[0m  [1m[34mSELECT "gameboards".* FROM "gameboards"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Create (1.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "wins", "losses", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Steven"], ["wins", 0], ["losses", 0], ["created_at", "2020-05-26 18:46:09.903086"], ["updated_at", "2020-05-26 18:46:09.903086"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.1ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Alicia Whitney"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UHE4WR324-46298770f176-512"], ["created_at", "2020-05-26 18:46:09.947367"], ["updated_at", "2020-05-26 18:46:09.947367"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Antonio Bladin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-USANM6AQP-34dc327b9605-512"], ["created_at", "2020-05-26 18:46:09.954995"], ["updated_at", "2020-05-26 18:46:09.954995"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Carol Fussman"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-26 18:46:09.960756"], ["updated_at", "2020-05-26 18:46:09.960756"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Edgar Rivera"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12MJBG-c6fb5b39ab15-512"], ["created_at", "2020-05-26 18:46:09.966822"], ["updated_at", "2020-05-26 18:46:09.966822"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daniel Kersten"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT11AM6-8dc58050a731-512"], ["created_at", "2020-05-26 18:46:09.974744"], ["updated_at", "2020-05-26 18:46:09.974744"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daryl Corbin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-US8T2CQF7-101b544e308e-512"], ["created_at", "2020-05-26 18:46:09.980136"], ["updated_at", "2020-05-26 18:46:09.980136"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elias Taveras"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ZSA826A-ffba90f92886-512"], ["created_at", "2020-05-26 18:46:09.984958"], ["updated_at", "2020-05-26 18:46:09.984958"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Eliot Henson"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSAY5TQC-daaad1dbb198-512"], ["created_at", "2020-05-26 18:46:09.989538"], ["updated_at", "2020-05-26 18:46:09.989538"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elizabeth Karen"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN1B61-d45851c6de5d-512"], ["created_at", "2020-05-26 18:46:09.994192"], ["updated_at", "2020-05-26 18:46:09.994192"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elliott King"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1F4NDC0-4170b1575cdc-512"], ["created_at", "2020-05-26 18:46:09.999611"], ["updated_at", "2020-05-26 18:46:09.999611"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Garen Sahagian"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ARCHG3T-fa38f2a2c267-512"], ["created_at", "2020-05-26 18:46:10.004994"], ["updated_at", "2020-05-26 18:46:10.004994"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Greg Dwyer"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U8H2RA3C1-643c8ce562ef-512"], ["created_at", "2020-05-26 18:46:10.010053"], ["updated_at", "2020-05-26 18:46:10.010053"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ian Grubb"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UKLTXS2LU-93c15b2245eb-512"], ["created_at", "2020-05-26 18:46:10.014952"], ["updated_at", "2020-05-26 18:46:10.014952"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Zhang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSQX1MT7-2ce9858771a8-512"], ["created_at", "2020-05-26 18:46:10.022343"], ["updated_at", "2020-05-26 18:46:10.022343"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jordan Melidor"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN2013-f78acb3da6bd-512"], ["created_at", "2020-05-26 18:46:10.036983"], ["updated_at", "2020-05-26 18:46:10.036983"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.9ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Justin Muzzi"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULEG985FD-2be336876c36-512"], ["created_at", "2020-05-26 18:46:10.052294"], ["updated_at", "2020-05-26 18:46:10.052294"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Katerina Maldon"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010S0FNPB6-792446a6ac06-512"], ["created_at", "2020-05-26 18:46:10.061313"], ["updated_at", "2020-05-26 18:46:10.061313"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Luis Pestana"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13124-18d6e024475f-512"], ["created_at", "2020-05-26 18:46:10.073697"], ["updated_at", "2020-05-26 18:46:10.073697"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Maharaj"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12RR62-cdbdc4226119-512"], ["created_at", "2020-05-26 18:46:10.085307"], ["updated_at", "2020-05-26 18:46:10.085307"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mari"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-URW0WRBUH-c9de3ba8e6f0-512"], ["created_at", "2020-05-26 18:46:10.103441"], ["updated_at", "2020-05-26 18:46:10.103441"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Matthew Masiello"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YQGUA-25c685fee626-512"], ["created_at", "2020-05-26 18:46:10.110573"], ["updated_at", "2020-05-26 18:46:10.110573"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (7.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Melissa Wise"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UUQ1DMAHH-f29558040e6d-512"], ["created_at", "2020-05-26 18:46:10.117752"], ["updated_at", "2020-05-26 18:46:10.117752"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michelle Frattaroli"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-26 18:46:10.137744"], ["updated_at", "2020-05-26 18:46:10.137744"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michael Jiang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010KJG9GGY-63aa8f4f9b3b-512"], ["created_at", "2020-05-26 18:46:10.146911"], ["updated_at", "2020-05-26 18:46:10.146911"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ramon Echeverria"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010MQQRC0N-f7e942518a93-512"], ["created_at", "2020-05-26 18:46:10.166796"], ["updated_at", "2020-05-26 18:46:10.166796"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.9ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Shobhit Ratan"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2F8TB-0c1149111a22-512"], ["created_at", "2020-05-26 18:46:10.175641"], ["updated_at", "2020-05-26 18:46:10.175641"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Stephen Cases"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13T5E-6e3271d23aa4-512"], ["created_at", "2020-05-26 18:46:10.224620"], ["updated_at", "2020-05-26 18:46:10.224620"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Steven Doran"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULYFYNXUN-920567a4beb2-512"], ["created_at", "2020-05-26 18:46:10.235602"], ["updated_at", "2020-05-26 18:46:10.235602"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tashawn Williams"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U7PSME4DA-8b811931b3d9-512"], ["created_at", "2020-05-26 18:46:10.241608"], ["updated_at", "2020-05-26 18:46:10.241608"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Urgen Sherpa"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV11S4QJG-473d4b6d3d08-512"], ["created_at", "2020-05-26 18:46:10.247162"], ["updated_at", "2020-05-26 18:46:10.247162"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vanessa Martinez"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12UKE2-f2631cdf4057-512"], ["created_at", "2020-05-26 18:46:10.254274"], ["updated_at", "2020-05-26 18:46:10.254274"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vivica Ma"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV3MBDDL6-a472bea4c357-512"], ["created_at", "2020-05-26 18:46:10.261752"], ["updated_at", "2020-05-26 18:46:10.261752"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yahya Gok"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2GBU1-11cd17d8d57f-512"], ["created_at", "2020-05-26 18:46:10.268785"], ["updated_at", "2020-05-26 18:46:10.268785"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.9ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yo Nagano"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U0106QTV84A-8c1be22e5237-512"], ["created_at", "2020-05-26 18:46:10.277573"], ["updated_at", "2020-05-26 18:46:10.277573"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wiliam Lin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1FPP00M-9c56ba191861-512"], ["created_at", "2020-05-26 18:46:10.294515"], ["updated_at", "2020-05-26 18:46:10.294515"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Create (0.6ms)[0m  [1m[32mINSERT INTO "gameboards" ("player_id", "person_id", "winner", "turns", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["player_id", "1"], ["person_id", "1"], ["winner", 1], ["turns", 0], ["created_at", "2020-05-26 18:46:10.313167"], ["updated_at", "2020-05-26 18:46:10.313167"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  [1m[35m (1.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (1.8ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPerson Load (3.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 7]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 8]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 9]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 10]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 11]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 12]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 14]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 16]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 17]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 18]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.7ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 19]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 20]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 21]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 22]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 23]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 24]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 25]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 26]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 27]]
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 28]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 29]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 30]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 31]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 32]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 33]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 34]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 35]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mGameboard Load (0.5ms)[0m  [1m[34mSELECT "gameboards".* FROM "gameboards"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Destroy (0.6ms)[0m  [1m[31mDELETE FROM "gameboards" WHERE "gameboards"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Create (0.9ms)[0m  [1m[32mINSERT INTO "players" ("name", "wins", "losses", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Steven"], ["wins", 0], ["losses", 0], ["created_at", "2020-05-26 18:48:08.656518"], ["updated_at", "2020-05-26 18:48:08.656518"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Alicia Whitney"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UHE4WR324-46298770f176-512"], ["created_at", "2020-05-26 18:48:08.668175"], ["updated_at", "2020-05-26 18:48:08.668175"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Antonio Bladin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-USANM6AQP-34dc327b9605-512"], ["created_at", "2020-05-26 18:48:08.678917"], ["updated_at", "2020-05-26 18:48:08.678917"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Carol Fussman"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-26 18:48:08.686699"], ["updated_at", "2020-05-26 18:48:08.686699"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.1ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Edgar Rivera"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12MJBG-c6fb5b39ab15-512"], ["created_at", "2020-05-26 18:48:08.694462"], ["updated_at", "2020-05-26 18:48:08.694462"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daniel Kersten"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT11AM6-8dc58050a731-512"], ["created_at", "2020-05-26 18:48:08.702574"], ["updated_at", "2020-05-26 18:48:08.702574"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daryl Corbin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-US8T2CQF7-101b544e308e-512"], ["created_at", "2020-05-26 18:48:08.709291"], ["updated_at", "2020-05-26 18:48:08.709291"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elias Taveras"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ZSA826A-ffba90f92886-512"], ["created_at", "2020-05-26 18:48:08.718730"], ["updated_at", "2020-05-26 18:48:08.718730"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Eliot Henson"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSAY5TQC-daaad1dbb198-512"], ["created_at", "2020-05-26 18:48:08.726227"], ["updated_at", "2020-05-26 18:48:08.726227"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elizabeth Karen"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN1B61-d45851c6de5d-512"], ["created_at", "2020-05-26 18:48:08.733201"], ["updated_at", "2020-05-26 18:48:08.733201"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elliott King"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1F4NDC0-4170b1575cdc-512"], ["created_at", "2020-05-26 18:48:08.739512"], ["updated_at", "2020-05-26 18:48:08.739512"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.9ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Garen Sahagian"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ARCHG3T-fa38f2a2c267-512"], ["created_at", "2020-05-26 18:48:08.745053"], ["updated_at", "2020-05-26 18:48:08.745053"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Greg Dwyer"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U8H2RA3C1-643c8ce562ef-512"], ["created_at", "2020-05-26 18:48:08.751659"], ["updated_at", "2020-05-26 18:48:08.751659"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ian Grubb"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UKLTXS2LU-93c15b2245eb-512"], ["created_at", "2020-05-26 18:48:08.757914"], ["updated_at", "2020-05-26 18:48:08.757914"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Zhang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSQX1MT7-2ce9858771a8-512"], ["created_at", "2020-05-26 18:48:08.763554"], ["updated_at", "2020-05-26 18:48:08.763554"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jordan Melidor"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN2013-f78acb3da6bd-512"], ["created_at", "2020-05-26 18:48:08.774865"], ["updated_at", "2020-05-26 18:48:08.774865"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Justin Muzzi"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULEG985FD-2be336876c36-512"], ["created_at", "2020-05-26 18:48:08.782935"], ["updated_at", "2020-05-26 18:48:08.782935"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Katerina Maldon"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010S0FNPB6-792446a6ac06-512"], ["created_at", "2020-05-26 18:48:08.791137"], ["updated_at", "2020-05-26 18:48:08.791137"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Luis Pestana"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13124-18d6e024475f-512"], ["created_at", "2020-05-26 18:48:08.800621"], ["updated_at", "2020-05-26 18:48:08.800621"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Maharaj"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12RR62-cdbdc4226119-512"], ["created_at", "2020-05-26 18:48:08.809013"], ["updated_at", "2020-05-26 18:48:08.809013"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mari"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-URW0WRBUH-c9de3ba8e6f0-512"], ["created_at", "2020-05-26 18:48:08.817133"], ["updated_at", "2020-05-26 18:48:08.817133"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Matthew Masiello"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YQGUA-25c685fee626-512"], ["created_at", "2020-05-26 18:48:08.838904"], ["updated_at", "2020-05-26 18:48:08.838904"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Melissa Wise"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UUQ1DMAHH-f29558040e6d-512"], ["created_at", "2020-05-26 18:48:08.845100"], ["updated_at", "2020-05-26 18:48:08.845100"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michelle Frattaroli"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-26 18:48:08.851024"], ["updated_at", "2020-05-26 18:48:08.851024"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michael Jiang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010KJG9GGY-63aa8f4f9b3b-512"], ["created_at", "2020-05-26 18:48:08.856836"], ["updated_at", "2020-05-26 18:48:08.856836"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ramon Echeverria"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010MQQRC0N-f7e942518a93-512"], ["created_at", "2020-05-26 18:48:08.864679"], ["updated_at", "2020-05-26 18:48:08.864679"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Shobhit Ratan"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2F8TB-0c1149111a22-512"], ["created_at", "2020-05-26 18:48:08.880996"], ["updated_at", "2020-05-26 18:48:08.880996"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Stephen Cases"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13T5E-6e3271d23aa4-512"], ["created_at", "2020-05-26 18:48:08.893764"], ["updated_at", "2020-05-26 18:48:08.893764"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Steven Doran"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULYFYNXUN-920567a4beb2-512"], ["created_at", "2020-05-26 18:48:08.904883"], ["updated_at", "2020-05-26 18:48:08.904883"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (2.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tashawn Williams"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U7PSME4DA-8b811931b3d9-512"], ["created_at", "2020-05-26 18:48:08.912158"], ["updated_at", "2020-05-26 18:48:08.912158"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Urgen Sherpa"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV11S4QJG-473d4b6d3d08-512"], ["created_at", "2020-05-26 18:48:08.920667"], ["updated_at", "2020-05-26 18:48:08.920667"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (2.2ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vanessa Martinez"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12UKE2-f2631cdf4057-512"], ["created_at", "2020-05-26 18:48:08.928114"], ["updated_at", "2020-05-26 18:48:08.928114"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vivica Ma"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV3MBDDL6-a472bea4c357-512"], ["created_at", "2020-05-26 18:48:08.936321"], ["updated_at", "2020-05-26 18:48:08.936321"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yahya Gok"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2GBU1-11cd17d8d57f-512"], ["created_at", "2020-05-26 18:48:08.943639"], ["updated_at", "2020-05-26 18:48:08.943639"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yo Nagano"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U0106QTV84A-8c1be22e5237-512"], ["created_at", "2020-05-26 18:48:08.951911"], ["updated_at", "2020-05-26 18:48:08.951911"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wiliam Lin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1FPP00M-9c56ba191861-512"], ["created_at", "2020-05-26 18:48:08.958680"], ["updated_at", "2020-05-26 18:48:08.958680"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Create (0.5ms)[0m  [1m[32mINSERT INTO "gameboards" ("player_id", "person_id", "winner", "turns", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["player_id", "2"], ["person_id", "36"], ["winner", 1], ["turns", 0], ["created_at", "2020-05-26 18:48:08.966499"], ["updated_at", "2020-05-26 18:48:08.966499"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT "people".* FROM "people" LIMIT ?[0m  [["LIMIT", 11]]
