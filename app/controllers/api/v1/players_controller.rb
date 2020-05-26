@@ -19,6 +19,6 @@ class Api::V1::PlayersController < ApplicationController
     private 
 
     def player_params
-        params.require(:player).permit(:name, :wins = 0, :losses = 0)
+        params.require(:player).permit(:name, :wins 0, :losses 0)
     end 
 end

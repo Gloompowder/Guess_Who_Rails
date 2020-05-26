@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 2020_05_25_025846) do
     t.string "background"
     t.boolean "incollection"
     t.string "picture"
+    t.boolean "chosen"
+    t.string "clothes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
