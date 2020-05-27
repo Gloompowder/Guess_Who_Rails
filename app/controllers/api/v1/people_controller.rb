@@ -12,14 +12,17 @@ class Api::V1::PeopleController < ApplicationController
     end 
 
     def create 
-        @person = People.create(people_params)
+        @person = Person.create(people_params)
 
         render json: @person
     end 
+
+    # def update 
+    # end
     private 
 
     def people_params
-        params.require(:person).permit(:name, :hair, :eyes, :gender, :facialhair, :glasses, :hat, :earring, :skin, :background, :incollection, :picture, :chosen)
+        params.require(:person).permit(:name, :picture)
     end 
     # t.string "name"
     # t.string "hair"

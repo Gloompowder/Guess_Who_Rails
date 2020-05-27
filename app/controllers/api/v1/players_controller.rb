@@ -13,12 +13,12 @@ class Api::V1::PlayersController < ApplicationController
 
     def create 
         @player = Player.create(player_params)
-
+        puts player_params
         render json: @player
     end 
     private 
 
     def player_params
-        params.require(:player).permit(:name, :wins 0, :losses 0)
+        params.require(:player).permit(:name)
     end 
 end

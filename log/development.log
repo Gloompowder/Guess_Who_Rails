@@ -989,3 +989,2360 @@ Migrating to CreateGameboards (20200525025846)
   [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT "people".* FROM "people" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/toys" for ::1 at 2020-05-26 15:01:14 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:02:16 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:02:18 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:02:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:02:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:03:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:03:43 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:10:15 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:10:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:14:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:15:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:15:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:16:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:16:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:16:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:18:15 -0400
+  
+SyntaxError (/Users/williamlin/Documents/FlatIronSchool/mod3/Guess_Who_Rails/app/controllers/api/v1/players_controller.rb:22: syntax error, unexpected tINTEGER, expecting ')'
+...(:player).permit(:name, :wins 0, :losses 0)
+...                              ^):
+  
+app/controllers/api/v1/players_controller.rb:22: syntax error, unexpected tINTEGER, expecting ')'
+app/controllers/api/v1/players_controller.rb:22: syntax error, unexpected tINTEGER, expecting ')'
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:20:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 14.8ms | ActiveRecord: 4.2ms | Allocations: 5926)
+
+
+Started GET "/toys" for ::1 at 2020-05-26 15:20:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:21:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:23:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:23:11 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 14.4ms | ActiveRecord: 1.0ms | Allocations: 939)
+
+
+Started GET "/toys" for ::1 at 2020-05-26 15:27:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:28:23 -0400
+Processing by Api::V1::PlayersController#index as */*
+  [1m[36mPlayer Load (1.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 35ms (Views: 29.4ms | ActiveRecord: 1.4ms | Allocations: 926)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:29:16 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (1.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.8ms | Allocations: 924)
+
+
+Started GET "/toys" for ::1 at 2020-05-26 15:29:25 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/toys" for ::1 at 2020-05-26 15:30:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:30:23 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 12.9ms | ActiveRecord: 0.9ms | Allocations: 923)
+
+
+Started GET "/toys" for ::1 at 2020-05-26 15:31:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/toys"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/players" for ::1 at 2020-05-26 15:31:29 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+  
+ActionDispatch::Http::Parameters::ParseError (416: unexpected token at 'object Object]'):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:32:05 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms | Allocations: 923)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:32:41 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 15:34:10 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (3.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 124ms (Views: 107.9ms | ActiveRecord: 4.3ms | Allocations: 20866)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 15:34:43 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.7ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 15:36:45 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 49ms (Views: 42.4ms | ActiveRecord: 1.5ms | Allocations: 9050)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:37:43 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.6ms | Allocations: 924)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 15:38:03 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+  
+ActionDispatch::Http::Parameters::ParseError (416: unexpected token at 'object Object]'):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+Started GET "/api/v1/players" for ::1 at 2020-05-26 15:39:16 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (1.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 1.3ms | Allocations: 923)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 15:59:00 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+  
+ActionDispatch::Http::Parameters::ParseError (416: unexpected token at 'object Object]'):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+Started GET "/api/v1/people" for ::1 at 2020-05-26 15:59:03 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 71ms (Views: 64.2ms | ActiveRecord: 1.8ms | Allocations: 19962)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 15:59:11 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+  
+ActionDispatch::Http::Parameters::ParseError (416: unexpected token at 'object Object]'):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:00:53 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 57ms (Views: 45.0ms | ActiveRecord: 5.2ms | Allocations: 20694)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:01:00 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+  
+ActionDispatch::Http::Parameters::ParseError (416: unexpected token at 'object Object]'):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:02:17 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 107ms (Views: 100.8ms | ActiveRecord: 1.3ms | Allocations: 9052)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:02:24 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+  
+ActionDispatch::Http::Parameters::ParseError (416: unexpected token at 'object Object]'):
+  
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:114:in `rescue in parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:110:in `parse_formatted_parameters'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:389:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.3.1) lib/action_dispatch/http/request.rb:388:in `POST'
+actionpack (6.0.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:278:in `_wrapper_enabled?'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+[object Object]
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:03:36 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 179ms (Views: 174.0ms | ActiveRecord: 2.5ms | Allocations: 9049)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:03:41 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (11.3ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-26 20:03:41.361680"], ["updated_at", "2020-05-26 20:03:41.361680"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 88ms (Views: 1.1ms | ActiveRecord: 16.3ms | Allocations: 6283)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:03:50 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms | Allocations: 1093)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:26:32 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (1.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 32ms (Views: 23.0ms | ActiveRecord: 1.2ms | Allocations: 1081)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:26:41 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (5.1ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 20.3ms | ActiveRecord: 5.1ms | Allocations: 9089)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:26:48 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"player"=>{}}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 125)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: player):
+  
+app/controllers/api/v1/players_controller.rb:22:in `player_params'
+app/controllers/api/v1/players_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:27:17 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.7ms | Allocations: 9052)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:27:23 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"player"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: player):
+  
+app/controllers/api/v1/players_controller.rb:22:in `player_params'
+app/controllers/api/v1/players_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:27:59 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.4ms | Allocations: 9049)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:28:02 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1061)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:28:14 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"player"=>{}}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: player):
+  
+app/controllers/api/v1/players_controller.rb:22:in `player_params'
+app/controllers/api/v1/players_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:28:57 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.5ms | Allocations: 9049)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:29:02 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"player"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: player):
+  
+app/controllers/api/v1/players_controller.rb:22:in `player_params'
+app/controllers/api/v1/players_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:30:51 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 101ms (Views: 93.2ms | ActiveRecord: 1.8ms | Allocations: 9052)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:30:55 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"player"=>{}}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: player):
+  
+app/controllers/api/v1/players_controller.rb:22:in `player_params'
+app/controllers/api/v1/players_controller.rb:15:in `create'
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:31:53 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1060)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:34:52 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 28.0ms | ActiveRecord: 1.6ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:34:57 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (6.2ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-26 20:34:57.475632"], ["updated_at", "2020-05-26 20:34:57.475632"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 8.3ms | Allocations: 2424)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:40:05 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 108ms (Views: 97.2ms | ActiveRecord: 1.8ms | Allocations: 9053)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:40:11 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.2ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-26 20:40:11.219651"], ["updated_at", "2020-05-26 20:40:11.219651"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 16ms (Views: 0.8ms | ActiveRecord: 5.8ms | Allocations: 2427)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:41:11 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (3.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 45ms (Views: 38.9ms | ActiveRecord: 3.6ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:41:16 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (0.9ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-26 20:41:16.801041"], ["updated_at", "2020-05-26 20:41:16.801041"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 18ms (Views: 1.2ms | ActiveRecord: 4.7ms | Allocations: 2427)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:42:28 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms | Allocations: 1473)
+
+
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (0.6ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 2]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (0.5ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (0.4ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (0.5ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (0.7ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 6]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPerson Load (2.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 36]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 37]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 38]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (3.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 39]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 40]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 41]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 42]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 43]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 44]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (3.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 45]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.7ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 46]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 47]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.7ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 48]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 49]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 50]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 51]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 52]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 53]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 54]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.7ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 55]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 56]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.9ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 57]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 58]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 59]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 60]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 61]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 62]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 63]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 64]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 65]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 66]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 67]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.2ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 68]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 69]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 70]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mGameboard Load (0.5ms)[0m  [1m[34mSELECT "gameboards".* FROM "gameboards"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Destroy (0.4ms)[0m  [1m[31mDELETE FROM "gameboards" WHERE "gameboards"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Create (0.8ms)[0m  [1m[32mINSERT INTO "players" ("name", "wins", "losses", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Steven"], ["wins", 0], ["losses", 0], ["created_at", "2020-05-26 20:42:55.522646"], ["updated_at", "2020-05-26 20:42:55.522646"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Alicia Whitney"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UHE4WR324-46298770f176-512"], ["created_at", "2020-05-26 20:42:55.530805"], ["updated_at", "2020-05-26 20:42:55.530805"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Antonio Bladin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-USANM6AQP-34dc327b9605-512"], ["created_at", "2020-05-26 20:42:55.539078"], ["updated_at", "2020-05-26 20:42:55.539078"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Carol Fussman"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-26 20:42:55.545493"], ["updated_at", "2020-05-26 20:42:55.545493"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Edgar Rivera"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12MJBG-c6fb5b39ab15-512"], ["created_at", "2020-05-26 20:42:55.551256"], ["updated_at", "2020-05-26 20:42:55.551256"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daniel Kersten"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT11AM6-8dc58050a731-512"], ["created_at", "2020-05-26 20:42:55.562824"], ["updated_at", "2020-05-26 20:42:55.562824"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daryl Corbin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-US8T2CQF7-101b544e308e-512"], ["created_at", "2020-05-26 20:42:55.569739"], ["updated_at", "2020-05-26 20:42:55.569739"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elias Taveras"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ZSA826A-ffba90f92886-512"], ["created_at", "2020-05-26 20:42:55.577997"], ["updated_at", "2020-05-26 20:42:55.577997"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Eliot Henson"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSAY5TQC-daaad1dbb198-512"], ["created_at", "2020-05-26 20:42:55.586215"], ["updated_at", "2020-05-26 20:42:55.586215"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elizabeth Karen"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN1B61-d45851c6de5d-512"], ["created_at", "2020-05-26 20:42:55.597500"], ["updated_at", "2020-05-26 20:42:55.597500"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elliott King"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1F4NDC0-4170b1575cdc-512"], ["created_at", "2020-05-26 20:42:55.606521"], ["updated_at", "2020-05-26 20:42:55.606521"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Garen Sahagian"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ARCHG3T-fa38f2a2c267-512"], ["created_at", "2020-05-26 20:42:55.613340"], ["updated_at", "2020-05-26 20:42:55.613340"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Greg Dwyer"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U8H2RA3C1-643c8ce562ef-512"], ["created_at", "2020-05-26 20:42:55.618805"], ["updated_at", "2020-05-26 20:42:55.618805"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ian Grubb"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UKLTXS2LU-93c15b2245eb-512"], ["created_at", "2020-05-26 20:42:55.627751"], ["updated_at", "2020-05-26 20:42:55.627751"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Zhang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSQX1MT7-2ce9858771a8-512"], ["created_at", "2020-05-26 20:42:55.634929"], ["updated_at", "2020-05-26 20:42:55.634929"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jordan Melidor"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN2013-f78acb3da6bd-512"], ["created_at", "2020-05-26 20:42:55.641392"], ["updated_at", "2020-05-26 20:42:55.641392"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Justin Muzzi"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULEG985FD-2be336876c36-512"], ["created_at", "2020-05-26 20:42:55.648867"], ["updated_at", "2020-05-26 20:42:55.648867"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.2ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Katerina Maldon"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010S0FNPB6-792446a6ac06-512"], ["created_at", "2020-05-26 20:42:55.665003"], ["updated_at", "2020-05-26 20:42:55.665003"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Luis Pestana"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13124-18d6e024475f-512"], ["created_at", "2020-05-26 20:42:55.673569"], ["updated_at", "2020-05-26 20:42:55.673569"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Maharaj"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12RR62-cdbdc4226119-512"], ["created_at", "2020-05-26 20:42:55.700749"], ["updated_at", "2020-05-26 20:42:55.700749"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mari"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-URW0WRBUH-c9de3ba8e6f0-512"], ["created_at", "2020-05-26 20:42:55.706994"], ["updated_at", "2020-05-26 20:42:55.706994"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Matthew Masiello"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YQGUA-25c685fee626-512"], ["created_at", "2020-05-26 20:42:55.714513"], ["updated_at", "2020-05-26 20:42:55.714513"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Melissa Wise"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UUQ1DMAHH-f29558040e6d-512"], ["created_at", "2020-05-26 20:42:55.720111"], ["updated_at", "2020-05-26 20:42:55.720111"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michelle Frattaroli"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-26 20:42:55.727221"], ["updated_at", "2020-05-26 20:42:55.727221"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michael Jiang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010KJG9GGY-63aa8f4f9b3b-512"], ["created_at", "2020-05-26 20:42:55.734572"], ["updated_at", "2020-05-26 20:42:55.734572"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ramon Echeverria"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010MQQRC0N-f7e942518a93-512"], ["created_at", "2020-05-26 20:42:55.740472"], ["updated_at", "2020-05-26 20:42:55.740472"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Shobhit Ratan"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2F8TB-0c1149111a22-512"], ["created_at", "2020-05-26 20:42:55.747659"], ["updated_at", "2020-05-26 20:42:55.747659"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Stephen Cases"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13T5E-6e3271d23aa4-512"], ["created_at", "2020-05-26 20:42:55.753172"], ["updated_at", "2020-05-26 20:42:55.753172"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Steven Doran"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULYFYNXUN-920567a4beb2-512"], ["created_at", "2020-05-26 20:42:55.760703"], ["updated_at", "2020-05-26 20:42:55.760703"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tashawn Williams"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U7PSME4DA-8b811931b3d9-512"], ["created_at", "2020-05-26 20:42:55.767453"], ["updated_at", "2020-05-26 20:42:55.767453"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Urgen Sherpa"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV11S4QJG-473d4b6d3d08-512"], ["created_at", "2020-05-26 20:42:55.777678"], ["updated_at", "2020-05-26 20:42:55.777678"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vanessa Martinez"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12UKE2-f2631cdf4057-512"], ["created_at", "2020-05-26 20:42:55.784013"], ["updated_at", "2020-05-26 20:42:55.784013"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (5.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vivica Ma"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV3MBDDL6-a472bea4c357-512"], ["created_at", "2020-05-26 20:42:55.792304"], ["updated_at", "2020-05-26 20:42:55.792304"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yahya Gok"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2GBU1-11cd17d8d57f-512"], ["created_at", "2020-05-26 20:42:55.816797"], ["updated_at", "2020-05-26 20:42:55.816797"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (2.2ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yo Nagano"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U0106QTV84A-8c1be22e5237-512"], ["created_at", "2020-05-26 20:42:55.826587"], ["updated_at", "2020-05-26 20:42:55.826587"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wiliam Lin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1FPP00M-9c56ba191861-512"], ["created_at", "2020-05-26 20:42:55.840166"], ["updated_at", "2020-05-26 20:42:55.840166"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Create (0.5ms)[0m  [1m[32mINSERT INTO "gameboards" ("player_id", "person_id", "winner", "turns", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["player_id", "7"], ["person_id", "71"], ["winner", 1], ["turns", 0], ["created_at", "2020-05-26 20:42:55.846474"], ["updated_at", "2020-05-26 20:42:55.846474"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:55:20 -0400
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 18ms (Views: 11.1ms | ActiveRecord: 1.6ms | Allocations: 5721)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:56:43 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (3.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 54ms (Views: 41.6ms | ActiveRecord: 4.7ms | Allocations: 20787)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:56:47 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-26 20:56:47.940489"], ["updated_at", "2020-05-26 20:56:47.940489"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 2.9ms | Allocations: 2631)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 16:57:16 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 1.0ms | Allocations: 9070)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 16:57:21 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-26 20:57:21.849587"], ["updated_at", "2020-05-26 20:57:21.849587"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.7ms | Allocations: 2441)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 16:57:29 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1200)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 17:00:40 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 79ms (Views: 65.6ms | ActiveRecord: 2.7ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 17:00:49 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"William Lin", "player"=>{"name"=>"William Lin"}}
+  [1m[35m (1.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (3.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "William Lin"], ["created_at", "2020-05-26 21:00:49.444700"], ["updated_at", "2020-05-26 21:00:49.444700"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 34ms (Views: 0.5ms | ActiveRecord: 12.9ms | Allocations: 2424)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 17:01:12 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.6ms | Allocations: 1336)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 17:09:11 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.9ms | Allocations: 1356)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 17:12:07 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (3.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 35ms (Views: 26.9ms | ActiveRecord: 3.2ms | Allocations: 9089)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 17:12:16 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Edgar", "player"=>{"name"=>"Edgar"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.4ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Edgar"], ["created_at", "2020-05-26 21:12:16.063472"], ["updated_at", "2020-05-26 21:12:16.063472"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 25ms (Views: 0.5ms | ActiveRecord: 4.3ms | Allocations: 2424)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 19:47:24 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (4.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 45ms (Views: 35.6ms | ActiveRecord: 4.0ms | Allocations: 9093)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 19:47:38 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.5ms | Allocations: 9052)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 19:47:46 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.8ms | Allocations: 1490)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 19:48:03 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 1473)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 19:49:30 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 14.5ms | ActiveRecord: 0.9ms | Allocations: 1473)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 19:50:00 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 1.0ms | Allocations: 9050)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 19:50:09 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms | Allocations: 1473)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 19:53:13 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 48ms (Views: 38.6ms | ActiveRecord: 3.3ms | Allocations: 20692)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 19:55:46 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 27.6ms | ActiveRecord: 0.8ms | Allocations: 9050)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 20:00:42 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (2.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 49ms (Views: 30.9ms | ActiveRecord: 7.6ms | Allocations: 5582)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 20:00:49 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.9ms | Allocations: 9050)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 20:00:56 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 1473)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 20:02:12 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1473)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 20:31:15 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 0.9ms | Allocations: 1493)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 20:35:02 -0400
+Started POST "/api/v1/players" for ::1 at 2020-05-26 20:35:02 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (124.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+Processing by Api::V1::PlayersController#create as JSON
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+Completed 200 OK in 163ms (Views: 34.0ms | ActiveRecord: 124.7ms | Allocations: 9631)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (23.3ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-27 00:35:02.368481"], ["updated_at", "2020-05-27 00:35:02.368481"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (287.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 352ms (Views: 0.5ms | ActiveRecord: 311.4ms | Allocations: 2633)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 20:35:21 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 1630)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-26 20:43:58 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-26 20:43:58 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#create as JSON
+Processing by Api::V1::PeopleController#index as */*
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[36mPerson Load (1.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  [1m[36mPlayer Create (6.1ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-27 00:43:58.716894"], ["updated_at", "2020-05-27 00:43:58.716894"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 38ms (Views: 32.2ms | ActiveRecord: 1.6ms | Allocations: 10201)
+
+
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 40ms (Views: 0.6ms | ActiveRecord: 7.9ms | Allocations: 11408)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 20:44:01 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 1767)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 23:28:21 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 29ms (Views: 24.8ms | ActiveRecord: 0.8ms | Allocations: 1768)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 23:46:26 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 16.4ms | ActiveRecord: 0.7ms | Allocations: 1767)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 23:46:48 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms | Allocations: 1747)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-26 23:48:03 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms | Allocations: 1747)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 23:50:40 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 63ms (Views: 57.6ms | ActiveRecord: 2.7ms | Allocations: 9089)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-26 23:50:56 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 00:09:55 -0400
+Started POST "/api/v1/players" for ::1 at 2020-05-27 00:09:55 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#create as JSON
+Processing by Api::V1::PeopleController#index as */*
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Load (7.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 120ms (Views: 108.8ms | ActiveRecord: 7.8ms | Allocations: 10125)
+
+
+  [1m[36mPlayer Create (3.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-27 04:09:55.773275"], ["updated_at", "2020-05-27 04:09:55.773275"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (18.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 380ms (Views: 2.3ms | ActiveRecord: 22.2ms | Allocations: 14378)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 00:09:59 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 1905)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 00:10:14 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 00:10:14 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.1ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 1.1ms | Allocations: 9089)
+
+
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Chloe", "player"=>{"name"=>"Chloe"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Chloe"], ["created_at", "2020-05-27 04:10:14.982753"], ["updated_at", "2020-05-27 04:10:14.982753"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 15ms (Views: 0.6ms | ActiveRecord: 3.2ms | Allocations: 2462)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 00:16:29 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 11.4ms | ActiveRecord: 0.8ms | Allocations: 2041)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 00:18:24 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 0.7ms | Allocations: 2021)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 00:19:26 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 2021)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 00:21:16 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 19.3ms | ActiveRecord: 0.9ms | Allocations: 2021)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 00:29:17 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 13.9ms | ActiveRecord: 0.8ms | Allocations: 2041)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 09:19:31 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (1.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 13.6ms | ActiveRecord: 1.4ms | Allocations: 2042)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 09:45:30 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (2.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 54ms (Views: 43.3ms | ActiveRecord: 2.0ms | Allocations: 2041)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 09:50:23 -0400
+Started POST "/api/v1/players" for ::1 at 2020-05-27 09:50:23 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "player"=>{"name"=>"Bartholamew"}}
+Processing by Api::V1::PeopleController#index as */*
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Load (2.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (5.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bartholamew"], ["created_at", "2020-05-27 13:50:23.622816"], ["updated_at", "2020-05-27 13:50:23.622816"]]
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 67ms (Views: 63.0ms | ActiveRecord: 2.7ms | Allocations: 10512)
+
+
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 387ms (Views: 5.8ms | ActiveRecord: 6.6ms | Allocations: 11716)
+
+
+Started POST "/api/v1/people" for ::1 at 2020-05-27 09:53:12 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms | Allocations: 1568)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started POST "/api/v1/people" for ::1 at 2020-05-27 09:55:10 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started POST "/api/v1/people" for ::1 at 2020-05-27 09:55:45 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-27 09:56:55 -0400
+Started POST "/api/v1/people" for ::1 at 2020-05-27 09:56:55 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+Processing by Api::V1::PeopleController#create as JSON
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  Parameters: {"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 200 OK in 63ms (Views: 50.5ms | ActiveRecord: 2.4ms | Allocations: 9394)
+
+
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started POST "/api/v1/people" for ::1 at 2020-05-27 09:57:21 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-27 09:57:21 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 2.6ms | Allocations: 9092)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 09:57:50 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 83ms (Views: 70.1ms | ActiveRecord: 4.9ms | Allocations: 6669)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 09:57:54 -0400
+Processing by Api::V1::PeopleController#index as HTML
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 92ms (Views: 85.4ms | ActiveRecord: 2.7ms | Allocations: 20288)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 09:59:23 -0400
+Started POST "/api/v1/people" for ::1 at 2020-05-27 09:59:23 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 200 OK in 69ms (Views: 63.3ms | ActiveRecord: 0.9ms | Allocations: 9600)
+
+
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started POST "/api/v1/people" for ::1 at 2020-05-27 10:01:37 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:01:37 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+Processing by Api::V1::PeopleController#create as JSON
+  [1m[36mPerson Load (2.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  Parameters: {"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms | Allocations: 1574)
+
+
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 2.7ms | Allocations: 22337)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:04:03 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:04:03 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (5.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 307ms (Views: 294.3ms | ActiveRecord: 5.0ms | Allocations: 9445)
+
+
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "player"=>{"name"=>"Bartholamew"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (2.3ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bartholamew"], ["created_at", "2020-05-27 14:04:03.815429"], ["updated_at", "2020-05-27 14:04:03.815429"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 70ms (Views: 0.9ms | ActiveRecord: 10.5ms | Allocations: 6367)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:07:01 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:07:01 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"William Lin", "player"=>{"name"=>"William Lin"}}
+Processing by Api::V1::PeopleController#index as */*
+  [1m[35m (1.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Load (3.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  [1m[36mPlayer Create (0.8ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "William Lin"], ["created_at", "2020-05-27 14:07:01.337463"], ["updated_at", "2020-05-27 14:07:01.337463"]]
+Completed 200 OK in 37ms (Views: 30.3ms | ActiveRecord: 3.9ms | Allocations: 9863)
+
+
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 84ms (Views: 4.2ms | ActiveRecord: 7.1ms | Allocations: 11730)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:10:46 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:10:46 -0400
+Processing by Api::V1::PeopleController#index as */*
+Processing by Api::V1::PlayersController#create as JSON
+  [1m[36mPerson Load (2.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  Parameters: {"name"=>"Bartholamew", "player"=>{"name"=>"Bartholamew"}}
+Completed 200 OK in 83ms (Views: 69.6ms | ActiveRecord: 2.7ms | Allocations: 9385)
+
+
+  [1m[35m (2.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.1ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bartholamew"], ["created_at", "2020-05-27 14:10:46.857770"], ["updated_at", "2020-05-27 14:10:46.857770"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 41ms (Views: 1.0ms | ActiveRecord: 4.7ms | Allocations: 2622)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:13:01 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:13:01 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (3.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "player"=>{"name"=>"Bartholamew"}}
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 66ms (Views: 54.5ms | ActiveRecord: 3.2ms | Allocations: 9373)
+
+
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bartholamew"], ["created_at", "2020-05-27 14:13:02.051091"], ["updated_at", "2020-05-27 14:13:02.051091"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (10.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 88ms (Views: 1.0ms | ActiveRecord: 12.5ms | Allocations: 10789)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:14:14 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "player"=>{"name"=>"Bartholamew"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.6ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bartholamew"], ["created_at", "2020-05-27 14:14:14.380154"], ["updated_at", "2020-05-27 14:14:14.380154"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 101ms (Views: 85.3ms | ActiveRecord: 5.0ms | Allocations: 2581)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:14:14 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.1ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 2.1ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:15:41 -0400
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:15:41 -0400
+Processing by Api::V1::PeopleController#index as */*
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Load (2.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (4.6ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-27 14:15:42.056531"], ["updated_at", "2020-05-27 14:15:42.056531"]]
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 93ms (Views: 87.0ms | ActiveRecord: 2.8ms | Allocations: 11208)
+
+
+  [1m[35m (11.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 147ms (Views: 1.3ms | ActiveRecord: 16.2ms | Allocations: 11407)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:17:00 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:17:00 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Bartholamew", "player"=>{"name"=>"Bartholamew"}}
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 85ms (Views: 74.8ms | ActiveRecord: 2.7ms | Allocations: 10068)
+
+
+  [1m[36mPlayer Create (0.8ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bartholamew"], ["created_at", "2020-05-27 14:17:00.329163"], ["updated_at", "2020-05-27 14:17:00.329163"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (12.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 111ms (Views: 0.9ms | ActiveRecord: 13.8ms | Allocations: 11719)
+
+
+Started POST "/api/v1/people" for ::1 at 2020-05-27 10:21:30 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:21:30 -0400
+Processing by Api::V1::PeopleController#create as JSON
+Processing by Api::V1::PeopleController#index as */*
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+  [1m[36mPerson Load (2.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1556)
+
+
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Completed 200 OK in 47ms (Views: 40.4ms | ActiveRecord: 2.4ms | Allocations: 11087)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-27 10:23:46 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:23:46 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PlayersController#create as JSON
+Processing by Api::V1::PeopleController#index as */*
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 53ms (Views: 48.7ms | ActiveRecord: 2.0ms | Allocations: 26102)
+
+
+  [1m[36mPlayer Create (1.1ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-27 14:23:46.434706"], ["updated_at", "2020-05-27 14:23:46.434706"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 63ms (Views: 0.5ms | ActiveRecord: 5.3ms | Allocations: 27246)
+
+
+Started POST "/api/v1/people" for ::1 at 2020-05-27 10:24:04 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-27 10:24:04 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1570)
+
+
+Processing by Api::V1::PeopleController#index as */*
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.9ms | Allocations: 33640)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 11:29:40 -0400
+Started POST "/api/v1/people" for ::1 at 2020-05-27 11:29:40 -0400
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (3.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+Processing by Api::V1::PeopleController#create as JSON
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  Parameters: {"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Bartholamew", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+Completed 200 OK in 51ms (Views: 41.5ms | ActiveRecord: 3.4ms | Allocations: 9438)
+
+
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1557)
+
+
+  
+NameError (uninitialized constant Api::V1::PeopleController::People):
+  
+app/controllers/api/v1/people_controller.rb:15:in `create'
+Started GET "/api/v1/people" for ::1 at 2020-05-27 11:32:31 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as HTML
+  [1m[36mPerson Load (1.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 72ms (Views: 57.7ms | ActiveRecord: 5.4ms | Allocations: 20690)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 11:32:43 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 27ms (Views: 22.3ms | ActiveRecord: 2.4ms | Allocations: 7372)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 11:33:14 -0400
+Started POST "/api/v1/people" for ::1 at 2020-05-27 11:33:14 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#create as JSON
+Processing by Api::V1::PeopleController#index as */*
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+  [1m[36mPerson Load (1.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  [1m[36mPerson Create (3.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Diamond"], ["picture", "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"], ["created_at", "2020-05-27 15:33:14.634556"], ["updated_at", "2020-05-27 15:33:14.634556"]]
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 1.3ms | Allocations: 20688)
+
+
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+Completed 200 OK in 47ms (Views: 3.0ms | ActiveRecord: 6.6ms | Allocations: 21908)
+
+
+Started GET "/api/v1/players" for ::1 at 2020-05-27 11:33:47 -0400
+Processing by Api::V1::PlayersController#index as HTML
+  [1m[36mPlayer Load (1.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:5:in `index'
+Completed 200 OK in 35ms (Views: 24.3ms | ActiveRecord: 2.5ms | Allocations: 7366)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 11:33:57 -0400
+Processing by Api::V1::PeopleController#index as HTML
+  [1m[36mPerson Load (1.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 1.6ms | Allocations: 9325)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-27 11:40:45 -0400
+Started POST "/api/v1/players" for ::1 at 2020-05-27 11:40:45 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (2.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 64ms (Views: 55.7ms | ActiveRecord: 2.2ms | Allocations: 10205)
+
+
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "player"=>{"name"=>"Diamond"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.7ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-27 15:40:45.613018"], ["updated_at", "2020-05-27 15:40:45.613018"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 20ms (Views: 2.4ms | ActiveRecord: 3.3ms | Allocations: 2434)
+
+
