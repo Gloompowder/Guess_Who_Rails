@@ -7661,3 +7661,779 @@ Migrating to CreateGameboards (20200525025846)
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mGameboard Create (0.4ms)[0m  [1m[32mINSERT INTO "gameboards" ("player_id", "person_id", "winner", "turns", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["player_id", "1"], ["person_id", "1"], ["winner", 1], ["turns", 0], ["created_at", "2020-05-28 14:01:42.819198"], ["updated_at", "2020-05-28 14:01:42.819198"]]
   [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Destroy (1.1ms)[0m  [1m[31mDELETE FROM "players" WHERE "players"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPerson Load (2.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.0ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 4]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 6]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.9ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 7]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 8]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.6ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 9]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.9ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 10]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.9ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 11]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 12]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (2.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 13]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 14]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 16]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 17]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.9ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 18]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.7ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 19]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (1.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 20]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 21]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 22]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 23]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 24]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 25]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 26]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 27]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 28]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 29]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.7ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 30]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.3ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 31]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 32]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.8ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 33]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 34]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Destroy (0.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 35]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mGameboard Load (1.2ms)[0m  [1m[34mSELECT "gameboards".* FROM "gameboards"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Destroy (0.4ms)[0m  [1m[31mDELETE FROM "gameboards" WHERE "gameboards"."id" = ?[0m  [["id", 1]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlayer Create (1.1ms)[0m  [1m[32mINSERT INTO "players" ("name", "wins", "losses", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Steven"], ["wins", 0], ["losses", 0], ["created_at", "2020-05-29 15:16:07.528069"], ["updated_at", "2020-05-29 15:16:07.528069"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Alicia Whitney"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UHE4WR324-46298770f176-512"], ["created_at", "2020-05-29 15:16:07.537146"], ["updated_at", "2020-05-29 15:16:07.537146"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Antonio Bladin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-USANM6AQP-34dc327b9605-512"], ["created_at", "2020-05-29 15:16:07.548027"], ["updated_at", "2020-05-29 15:16:07.548027"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.2ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Carol Fussman"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YN6CA-07e236f1fe28-512"], ["created_at", "2020-05-29 15:16:07.556615"], ["updated_at", "2020-05-29 15:16:07.556615"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (2.0ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Edgar Rivera"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12MJBG-c6fb5b39ab15-512"], ["created_at", "2020-05-29 15:16:07.571241"], ["updated_at", "2020-05-29 15:16:07.571241"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daniel Kersten"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT11AM6-8dc58050a731-512"], ["created_at", "2020-05-29 15:16:07.582206"], ["updated_at", "2020-05-29 15:16:07.582206"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Daryl Corbin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-US8T2CQF7-101b544e308e-512"], ["created_at", "2020-05-29 15:16:07.591329"], ["updated_at", "2020-05-29 15:16:07.591329"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elias Taveras"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ZSA826A-ffba90f92886-512"], ["created_at", "2020-05-29 15:16:07.596736"], ["updated_at", "2020-05-29 15:16:07.596736"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Eliot Henson"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSAY5TQC-daaad1dbb198-512"], ["created_at", "2020-05-29 15:16:07.604246"], ["updated_at", "2020-05-29 15:16:07.604246"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elizabeth Karen"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN1B61-d45851c6de5d-512"], ["created_at", "2020-05-29 15:16:07.618790"], ["updated_at", "2020-05-29 15:16:07.618790"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Elliott King"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1F4NDC0-4170b1575cdc-512"], ["created_at", "2020-05-29 15:16:07.632977"], ["updated_at", "2020-05-29 15:16:07.632977"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.2ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Garen Sahagian"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010ARCHG3T-fa38f2a2c267-512"], ["created_at", "2020-05-29 15:16:07.639620"], ["updated_at", "2020-05-29 15:16:07.639620"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Greg Dwyer"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U8H2RA3C1-643c8ce562ef-512"], ["created_at", "2020-05-29 15:16:07.647515"], ["updated_at", "2020-05-29 15:16:07.647515"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.9ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ian Grubb"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UKLTXS2LU-93c15b2245eb-512"], ["created_at", "2020-05-29 15:16:07.654714"], ["updated_at", "2020-05-29 15:16:07.654714"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John Zhang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTSQX1MT7-2ce9858771a8-512"], ["created_at", "2020-05-29 15:16:07.670850"], ["updated_at", "2020-05-29 15:16:07.670850"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jordan Melidor"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LTN2013-f78acb3da6bd-512"], ["created_at", "2020-05-29 15:16:07.679159"], ["updated_at", "2020-05-29 15:16:07.679159"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Justin Muzzi"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULEG985FD-2be336876c36-512"], ["created_at", "2020-05-29 15:16:07.685644"], ["updated_at", "2020-05-29 15:16:07.685644"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Katerina Maldon"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010S0FNPB6-792446a6ac06-512"], ["created_at", "2020-05-29 15:16:07.694003"], ["updated_at", "2020-05-29 15:16:07.694003"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Luis Pestana"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13124-18d6e024475f-512"], ["created_at", "2020-05-29 15:16:07.700029"], ["updated_at", "2020-05-29 15:16:07.700029"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Maharaj"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12RR62-cdbdc4226119-512"], ["created_at", "2020-05-29 15:16:07.731916"], ["updated_at", "2020-05-29 15:16:07.731916"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mari"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-URW0WRBUH-c9de3ba8e6f0-512"], ["created_at", "2020-05-29 15:16:07.740311"], ["updated_at", "2020-05-29 15:16:07.740311"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Matthew Masiello"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UFLH3KMEV-361ad28cf909-512"], ["created_at", "2020-05-29 15:16:07.747807"], ["updated_at", "2020-05-29 15:16:07.747807"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Melissa Wise"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UUQ1DMAHH-f29558040e6d-512"], ["created_at", "2020-05-29 15:16:07.756125"], ["updated_at", "2020-05-29 15:16:07.756125"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.8ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michelle Frattaroli"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U01083YQGUA-25c685fee626-512"], ["created_at", "2020-05-29 15:16:07.770220"], ["updated_at", "2020-05-29 15:16:07.770220"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Michael Jiang"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010KJG9GGY-63aa8f4f9b3b-512"], ["created_at", "2020-05-29 15:16:07.779654"], ["updated_at", "2020-05-29 15:16:07.779654"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ramon Echeverria"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010MQQRC0N-f7e942518a93-512"], ["created_at", "2020-05-29 15:16:07.786301"], ["updated_at", "2020-05-29 15:16:07.786301"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.1ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Shobhit Ratan"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2F8TB-0c1149111a22-512"], ["created_at", "2020-05-29 15:16:07.792562"], ["updated_at", "2020-05-29 15:16:07.792562"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Stephen Cases"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U010LT13T5E-6e3271d23aa4-512"], ["created_at", "2020-05-29 15:16:07.801158"], ["updated_at", "2020-05-29 15:16:07.801158"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Steven Doran"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-ULYFYNXUN-920567a4beb2-512"], ["created_at", "2020-05-29 15:16:07.814380"], ["updated_at", "2020-05-29 15:16:07.814380"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tashawn Williams"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U7PSME4DA-8b811931b3d9-512"], ["created_at", "2020-05-29 15:16:07.824516"], ["updated_at", "2020-05-29 15:16:07.824516"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Urgen Sherpa"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV11S4QJG-473d4b6d3d08-512"], ["created_at", "2020-05-29 15:16:07.831703"], ["updated_at", "2020-05-29 15:16:07.831703"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.5ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vanessa Martinez"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTV12UKE2-f2631cdf4057-512"], ["created_at", "2020-05-29 15:16:07.844280"], ["updated_at", "2020-05-29 15:16:07.844280"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.4ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vivica Ma"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV3MBDDL6-a472bea4c357-512"], ["created_at", "2020-05-29 15:16:07.850373"], ["updated_at", "2020-05-29 15:16:07.850373"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (0.7ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yahya Gok"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UTGL2GBU1-11cd17d8d57f-512"], ["created_at", "2020-05-29 15:16:07.858410"], ["updated_at", "2020-05-29 15:16:07.858410"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.2ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yo Nagano"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-U0106QTV84A-8c1be22e5237-512"], ["created_at", "2020-05-29 15:16:07.870834"], ["updated_at", "2020-05-29 15:16:07.870834"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Create (1.1ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wiliam Lin"], ["picture", "https://ca.slack-edge.com/T02MD9XTF-UV1FPP00M-9c56ba191861-512"], ["created_at", "2020-05-29 15:16:07.879541"], ["updated_at", "2020-05-29 15:16:07.879541"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGameboard Create (0.5ms)[0m  [1m[32mINSERT INTO "gameboards" ("player_id", "person_id", "winner", "turns", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["player_id", "2"], ["person_id", "36"], ["winner", 1], ["turns", 0], ["created_at", "2020-05-29 15:16:07.890316"], ["updated_at", "2020-05-29 15:16:07.890316"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:16:29 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:16:29 -0400
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PlayersController#create as JSON
+Processing by Api::V1::PeopleController#index as */*
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+  [1m[36mPerson Load (1.8ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (5.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:16:29.758135"], ["updated_at", "2020-05-29 15:16:29.758135"]]
+Completed 200 OK in 103ms (Views: 98.2ms | ActiveRecord: 2.8ms | Allocations: 26128)
+
+
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 126ms (Views: 1.1ms | ActiveRecord: 12.0ms | Allocations: 27179)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:16:35 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.5ms | Allocations: 9067)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:16:43 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.3ms | Allocations: 9070)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:17:08 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 18.8ms | ActiveRecord: 1.4ms | Allocations: 9067)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:17:13 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.3ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:17:56 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (0.6ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:17:56.624689"], ["updated_at", "2020-05-29 15:17:56.624689"]]
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:17:56 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 1.4ms | Allocations: 9552)
+
+
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 43ms (Views: 0.9ms | ActiveRecord: 3.2ms | Allocations: 12558)
+
+
+Started PATCH "/api/v1/players/4" for ::1 at 2020-05-29 11:18:04 -0400
+  
+AbstractController::ActionNotFound (The action 'update' could not be found for Api::V1::PlayersController):
+  
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:131:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.0.5) lib/rack/cors.rb:98:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:19:32 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:19:32 -0400
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPlayer Create (1.7ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:19:32.364694"], ["updated_at", "2020-05-29 15:19:32.364694"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (18.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.9ms | Allocations: 10201)
+
+
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 123ms (Views: 1.5ms | ActiveRecord: 21.4ms | Allocations: 12518)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:19:43 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 9051)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:20:17 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:17 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+  [1m[36mPlayer Create (1.6ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:20:17.909435"], ["updated_at", "2020-05-29 15:20:17.909435"]]
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 1.2ms | Allocations: 9054)
+
+
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 3.4ms | Allocations: 12164)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:48 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 43ms (Views: 33.2ms | ActiveRecord: 1.9ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:49 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.9ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:50 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:50 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:51 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.5ms | Allocations: 9053)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:51 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 1.2ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:54 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.3ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:20:59 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (0.6ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:20:59.438127"], ["updated_at", "2020-05-29 15:20:59.438127"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 4.4ms | Allocations: 2505)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:20:59 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.3ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:21:01 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.6ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:21:08 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:21:08 -0400
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (0.7ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:21:08.562078"], ["updated_at", "2020-05-29 15:21:08.562078"]]
+Processing by Api::V1::PeopleController#index as */*
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 21ms (Views: 0.9ms | ActiveRecord: 4.6ms | Allocations: 3822)
+
+
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 49ms (Views: 43.5ms | ActiveRecord: 0.7ms | Allocations: 10482)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:21:10 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:23:55 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (10.1ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:23:55.965090"], ["updated_at", "2020-05-29 15:23:55.965090"]]
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:23:55 -0400
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+Processing by Api::V1::PeopleController#index as */*
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 1.0ms | Allocations: 9584)
+
+
+Completed 200 OK in 85ms (Views: 0.7ms | ActiveRecord: 12.5ms | Allocations: 12428)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:24:03 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.6ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:24:04 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.1ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.1ms | Allocations: 9050)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:24:31 -0400
+Processing by Api::V1::PlayersController#create as JSON
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:24:31 -0400
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+Processing by Api::V1::PeopleController#index as */*
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPerson Load (2.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 2.2ms | Allocations: 9860)
+
+
+  [1m[36mPlayer Create (1.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:24:32.015403"], ["updated_at", "2020-05-29 15:24:32.015403"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 73ms (Views: 0.8ms | ActiveRecord: 3.5ms | Allocations: 12164)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:24:34 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.9ms | Allocations: 9051)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:24:35 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.7ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:25:11 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (69.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 336ms (Views: 226.3ms | ActiveRecord: 69.7ms | Allocations: 9051)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:25:13 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.9ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.9ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:25:15 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started POST "/api/v1/people" for ::1 at 2020-05-29 11:25:19 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+  [1m[36mPerson Create (0.9ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Diamond"], ["picture", "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"], ["created_at", "2020-05-29 15:25:19.776463"], ["updated_at", "2020-05-29 15:25:19.776463"]]
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+Completed 200 OK in 20ms (Views: 0.8ms | ActiveRecord: 2.7ms | Allocations: 2547)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:25:19 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.2ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 1.2ms | Allocations: 9286)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:26:01 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:26:01 -0400
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (3.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:26:01.500692"], ["updated_at", "2020-05-29 15:26:01.500692"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Processing by Api::V1::PeopleController#index as */*
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[36mPerson Load (1.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 63ms (Views: 1.0ms | ActiveRecord: 5.4ms | Allocations: 4143)
+
+
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 1.7ms | Allocations: 9527)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:26:04 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (4.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 35ms (Views: 29.5ms | ActiveRecord: 4.7ms | Allocations: 9286)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:26:05 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.7ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.7ms | Allocations: 9286)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:26:06 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.6ms | Allocations: 9286)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:26:15 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.4ms | Allocations: 9286)
+
+
+Started DELETE "/api/v1/people/71" for ::1 at 2020-05-29 11:26:18 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:26:18 -0400
+Processing by Api::V1::PeopleController#destroy as JSON
+  Parameters: {"id"=>"71", "person"=>{}}
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.4ms | Allocations: 9329)
+
+
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people" WHERE "people"."id" = ? LIMIT ?[0m  [["id", 71], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/people_controller.rb:21:in `destroy'
+  [1m[36mPerson Destroy (4.5ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 71]]
+  ↳ app/controllers/api/v1/people_controller.rb:22:in `destroy'
+Completed 200 OK in 87ms (Views: 1.1ms | ActiveRecord: 4.9ms | Allocations: 12630)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:27:34 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started POST "/api/v1/people" for ::1 at 2020-05-29 11:27:41 -0400
+Processing by Api::V1::PeopleController#create as JSON
+  Parameters: {"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL", "person"=>{"name"=>"Diamond", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+  [1m[36mPerson Create (3.6ms)[0m  [1m[32mINSERT INTO "people" ("name", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Diamond"], ["picture", "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAWFRUWFRUWFRUXFhUaFRUVFhUWFxUXFRUYHS4sHyAlHxcVIzEhJSkrLi4uFx8zOTMtNygtLisBCgoKDg0OGxAQGzImICY1LS8tLS0tLS8vLzctLS0tLS0tLS0tLS0tLTAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBFAMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgUGAwQHAAj/xABCEAACAQMCBAQDBQcCBAUFAAABAgMABBESIQUGMUETIlFhMnGBBxRCkaEjUmJygrHBM9EVJKLhFjRDkvFTc7LC8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAzEQACAgEDAgQEBgICAwEAAAAAAQIDERIhMQRBEyJRYTJxgaEFkbHR4fAUwSPxQlKiFf/aAAwDAQACEQMRAD8A4rUANAGgDQBFAECgDipA2KAOKAIFAECgDigDigPYoA4oD2KAOKA9igPYoAYoD2KAGKAGKAGKA9igFxQAIoAEUAKgAoBTQAoAUAKA9QBoA0AaAIoAigGAoAgVIDigGxQBAoA4oA4oA4oA4oDwFAHFAexQHsUADQG0OHS4BKaAehcqgP8ALrIz9M11pfoc6l6mzY8KEh88oUfwjUf8f5q6HSzk8L+CuVyism7LwaEHTHqlPcBpCQfTSkPX5tURouk3prbS79vux4tSjqnYkvn/ANmzwblqKYZa4jQ6iNPhyu4AO3kx39/Wtv8Ahpf+Ms/JY/Nsx2dZKO6049XJL+SN5lsVtJPDCmRj8IKhds4BKLvuc4B9Kx31KD2a/PODT0t3iw1N/lnH3M3CbO3ZXF0E8U6RHGGMeCSANGn4m9jke3eqlWppaZ7+mC+M4xfmTwZOZeT5LRI5kbXG6K2GwsiE9QUz5gCOo9RkCjg08Pn0+RCsi+OPUrFcHYCKAWgBUAFAL"], ["created_at", "2020-05-29 15:27:41.679583"], ["updated_at", "2020-05-29 15:27:41.679583"]]
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/people_controller.rb:15:in `create'
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 5.8ms | Allocations: 2535)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:27:41 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.5ms | Allocations: 9286)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:27:42 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.6ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.6ms | Allocations: 9286)
+
+
+Started DELETE "/api/v1/people/72" for ::1 at 2020-05-29 11:27:44 -0400
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:27:44 -0400
+Processing by Api::V1::PeopleController#destroy as JSON
+  Parameters: {"id"=>"72", "person"=>{}}
+  [1m[36mPerson Load (0.1ms)[0m  [1m[34mSELECT "people".* FROM "people" WHERE "people"."id" = ? LIMIT ?[0m  [["id", 72], ["LIMIT", 1]]
+Processing by Api::V1::PeopleController#index as */*
+  ↳ app/controllers/api/v1/people_controller.rb:21:in `destroy'
+  [1m[36mPerson Load (9.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  [1m[36mPerson Destroy (6.4ms)[0m  [1m[31mDELETE FROM "people" WHERE "people"."id" = ?[0m  [["id", 72]]
+  ↳ app/controllers/api/v1/people_controller.rb:22:in `destroy'
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 24ms (Views: 2.1ms | ActiveRecord: 6.5ms | Allocations: 2564)
+
+
+Completed 200 OK in 33ms (Views: 24.2ms | ActiveRecord: 9.0ms | Allocations: 10038)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:27:44 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.3ms | Allocations: 9053)
+
+
+Started POST "/api/v1/players" for ::1 at 2020-05-29 11:27:53 -0400
+Processing by Api::V1::PlayersController#create as JSON
+  Parameters: {"name"=>"Diamond", "wins"=>0, "losses"=>0, "player"=>{"name"=>"Diamond", "wins"=>0, "losses"=>0}}
+[31mUnpermitted parameters: :wins, :losses[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[36mPlayer Create (1.0ms)[0m  [1m[32mINSERT INTO "players" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Diamond"], ["created_at", "2020-05-29 15:27:53.014452"], ["updated_at", "2020-05-29 15:27:53.014452"]]
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/players_controller.rb:15:in `create'
+[31mUnpermitted parameters: :wins, :losses[0m
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 3.4ms | Allocations: 2492)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:27:53 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:28:01 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 1.0ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:28:02 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.5ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.5ms | Allocations: 9050)
+
+
+Started GET "/api/v1/people" for ::1 at 2020-05-29 11:28:02 -0400
+Processing by Api::V1::PeopleController#index as */*
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT "people".* FROM "people"[0m
+  ↳ app/controllers/api/v1/people_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.4ms | Allocations: 9050)
+
+
