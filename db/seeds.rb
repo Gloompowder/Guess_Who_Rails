@@ -51,7 +51,7 @@ person32 = Person.create!(name: "Vivica Ma", picture: "https://ca.slack-edge.com
 person33 = Person.create!(name: "Yahya Gok", picture: "https://ca.slack-edge.com/T02MD9XTF-UTGL2GBU1-11cd17d8d57f-512")
 person34 = Person.create!(name: "Yo Nagano", picture: "https://ca.slack-edge.com/T02MD9XTF-U0106QTV84A-8c1be22e5237-512")
 person35 = Person.create!(name: "Wiliam Lin", picture: "https://ca.slack-edge.com/T02MD9XTF-UV1FPP00M-9c56ba191861-512")
-
+person36 = Person.create!(name: "Nicky Dover", picture: "https://ca.slack-edge.com/T02MD9XTF-UG8U5S70B-65ba48b712ab-512")
 
 
 # person1 = Person.create!(name: "Alicia Whitney",  
