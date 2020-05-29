@@ -16,9 +16,15 @@ class Api::V1::PlayersController < ApplicationController
         puts player_params
         render json: @player
     end 
+
+    def update
+        @player = Player.find(params[:id])
+
+        @player.update(player_params)
+    end
     private 
 
     def player_params
-        params.require(:player).permit(:name)
+        params.require(:player).permit(:name, :wins, :losses)
     end 
 end
