@@ -1,24 +1,12 @@
-# README
+#Installation 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+   ```bundle install ``` 
+   ```rails db:migrate ``` 
+   ``` rails db:seed ``` 
+   ``` rails s ```
 
-Things you may want to cover:
+This is just the backend for the guess who app. You will find the characters and gameboards info here and it provides the api.
 
-* Ruby version
+This is built with ruby on rails and has a sqlite3 db. 
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
